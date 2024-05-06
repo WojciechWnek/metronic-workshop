@@ -1,0 +1,23 @@
+//
+// To make future updates easier consider overriding the global variables from _variables.bootstrap.scss and _variables.custom.scss for current demo in this file.
+// Note that this file is included first and variables defined in _variables.bootstrap.scss and _variables.custom.scss
+// are not accessible in this file but you can override any global variable as shown below:
+//
+
+$primary: #db2828;
+$primary-active: #b11313;
+$primary-light: #fceaea;
+$primary-clarity: rgba($primary, 0.2);
+
+$gray-200: #f1f1f2;
+$gray-300: #e1e3ea;
+
+$gray-500: #a1a5b7;
+$gray-600: #7e8299;
+$gray-700: #5e6278;
+$gray-800: #3f4254;
+$gray-900: #181c32;
+
+$danger: #f1416c;
+
+$scrollbar-size: 20px;

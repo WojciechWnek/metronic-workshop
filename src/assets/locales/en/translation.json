@@ -1,0 +1,93 @@
+{
+  "landing": {
+    "title": "MBA Jumpseat is the ultimate safety, risk & auditing tool for your airline",
+    "paragraph1": "Part 135 operations are a set of FAR guidelines relevant to non-scheduled, commercial aircraft operations. These can include air taxi flights and private air charters, among other types of transactional private jet situations.",
+    "paragraph2": "FAA has issued a Notice of Proposed Rulemaking (NPRM) that would require all Part 135 certificate holders to implement a Safety Management System (SMS)",
+    "paragraph3": "Duis vestibulum massa a arcu condimentum fermentum. Integer condimentum, sem id volutpat viverra, metus enim efficitur ante, eget aliquet erat tellus eget erat. Pellentesque commodo tellus et efficitur lacinia. Sed non elementum mauris, sit amet fermentum leo.",
+    "banner": {
+      "title": "Interested?",
+      "subtitle": "Did we catch your interest? \nLearn more about our pricing model to find one that fits your needs, or get started and register!",
+      "learnPricing": "Learn Pricing",
+      "register": "Register"
+    }
+  },
+  "registration": {
+    "steps": {
+      "companyDetails": "Company Details",
+      "administrativeDetails": "Administrative & Contact Details",
+      "paymentDetails": "Payment Details",
+      "reveiw": "Review & Submit"
+    },
+    "navigation": {
+      "terms": "Terms",
+      "plans": "Plans",
+      "contact": "Contact Us"
+    },
+    "title": "Registration for JumpseatSMS",
+    "companyDetails": {
+      "subtitle": "Lets get started with some basic information about your company",
+      "companyDetails": {
+        "formTitle": "Company Details",
+        "country": "Country",
+        "countryInfo": "Main operating base as per the AOC",
+        "companyName": "Company Name",
+        "fleetSize": "Fleet Size"
+      },
+      "address": {
+        "formTitle": "Address",
+        "street1": "Street 1",
+        "street2": "Street 2",
+        "city": "City",
+        "state": "State",
+        "zip": "Zip"
+      }
+    },
+    "administrativeDetails": {
+      "subtitle": "Now lets set up your system administrator & contact details",
+      "systemAdminstratorDetails": {
+        "formTitle": "System Administrator Details (Primary Contact)",
+        "formSubitle": "System administrator will be your first administrative user, with the ability to create users and assign permissions within Jumspeat SMS",
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "email": "Email",
+        "phone": "Phone",
+        "organizationalDepartment": "Organizational Department",
+        "password": "Password",
+        "passwordInfo": "Password must have 8 Characters with one Uppercase letter, one Lowercase letter, one Number and one Special Character",
+        "confirmPassword": "Confirm Password"
+      },
+      "secondaryContactDetails": {
+        "formTitle": "Secondary Contact Details",
+        "formSubitle": "Adding a Secondary Contact in this registration process will not create this person as a user on Jumpseat SMS. The Administrative User will create Users and assign permissions.",
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "email": "Email",
+        "phone": "Phone"
+      }
+    },
+    "paymentDetails": {
+      "subtitle": "Select payment plan and add payment information",
+      "paymentPlan": {
+        "formTitle": "Payment Plan"
+      }
+    },
+    "review": {
+      "subtitle": "Review your information for account setup"
+    },
+    "registrationCompleted": {
+      "title": "Registration Complete!",
+      "subtitle": "We have recorded your information. A JumpseatSMS Representative will contact you shortly."
+    }
+  },
+  "navigation": {
+    "exit": "Exit",
+    "edit": "Edit",
+    "continue": "Continue",
+    "back": "Back",
+    "submit": "Submit"
+  },
+  "emialVerify": {
+    "title": "Validating your email.",
+    "error": "Something went wrong."
+  }
+}

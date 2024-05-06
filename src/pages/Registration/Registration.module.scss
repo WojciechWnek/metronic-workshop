@@ -1,0 +1,79 @@
+@import 'src/styles/styles';
+
+.registrationStepper {
+  background: $background-gradient;
+  padding: 5rem 8rem;
+  min-height: 43.75rem;
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7.5rem;
+  position: relative;
+
+  img {
+    width: 9rem;
+  }
+
+  a {
+    text-wrap: nowrap;
+  }
+
+  .shapes {
+    pointer-events: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+
+    top: 0;
+
+    .polygon1 {
+      position: absolute;
+      right: -12.25rem;
+      top: 3rem;
+    }
+
+    .polygon2 {
+      position: absolute;
+      bottom: -12rem;
+      left: -12rem;
+      transform: rotate(25deg);
+    }
+
+    .rectangle {
+      position: absolute;
+      border-radius: 1.5rem;
+      width: 18rem;
+      height: 26.5rem;
+      opacity: 0.04;
+      &:nth-child(1) {
+        width: 18rem;
+        height: 26.5rem;
+        transform: rotate(146deg);
+        top: -14rem;
+        left: -15rem;
+      }
+      &:nth-child(2) {
+        width: 21.5rem;
+        height: 31.25rem;
+        transform: rotate(60deg);
+        bottom: -17rem;
+        right: -20rem;
+      }
+    }
+  }
+
+  :global(.stepper-nav .stepper-item.completed .stepper-wrapper .stepper-icon) {
+    background-color: rgba($white, 0.05);
+  }
+
+  :global(.stepper-nav .stepper-item.pending .stepper-wrapper .stepper-icon) {
+    background-color: rgba($white, 0.05);
+  }
+
+  :global(.stepper-nav .stepper-item:not(.current) .stepper-wrapper .stepper-icon) {
+    border: 1px dashed rgba($white, 0.3);
+    background-color: rgba($white, 0.05);
+  }
+}

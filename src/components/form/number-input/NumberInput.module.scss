@@ -1,0 +1,32 @@
+.numericInput {
+  position: relative;
+  input[type='number'] {
+    -moz-appearance: textfield;
+  }
+
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+
+  button {
+    all: unset;
+    position: absolute;
+
+    &:hover {
+      opacity: 0.75;
+    }
+
+    &:first-child {
+      top: 50%;
+      left: 0.75rem;
+      transform: translateY(-50%);
+    }
+
+    &:last-child {
+      top: 50%;
+      right: 0.75rem;
+      transform: translateY(-50%);
+    }
+  }
+}

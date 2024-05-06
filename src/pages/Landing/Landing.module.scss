@@ -1,0 +1,185 @@
+@import 'src/styles/styles';
+
+.landing {
+  flex-grow: 1;
+  padding: 3.75rem 6.25rem;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 2rem;
+  background: $background-gradient;
+  overflow: hidden;
+
+  & > .info {
+    width: 48rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+
+    h1 {
+      font-size: 2.125rem;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 2.875rem;
+      letter-spacing: -0.0425rem;
+    }
+    p {
+      font-size: 1.25rem;
+      font-style: normal;
+      font-weight: 500;
+    }
+  }
+
+  .banner {
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 31rem;
+
+    .card {
+      border-radius: 1.5rem;
+      padding: 2.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 3.75rem;
+
+      .info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2.5rem;
+
+        h2 {
+          text-align: center;
+          font-size: 1.875rem;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 1.875rem;
+          letter-spacing: -0.0375rem;
+        }
+
+        p {
+          text-align: center;
+          font-size: 1.125rem;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 1.5625rem;
+          margin: unset;
+        }
+      }
+
+      .buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+      }
+    }
+  }
+
+  .path {
+    position: absolute;
+    bottom: -1rem;
+    right: 9rem;
+  }
+  .airplane {
+    position: absolute;
+    transform: scale(8) rotate(45deg);
+    opacity: 0.6;
+    bottom: 6.5rem;
+    right: 2rem;
+  }
+
+  @include media-breakpoint-down(xxl) {
+    & > .info {
+      width: 44rem;
+      gap: 2.5rem;
+
+      h1 {
+        font-size: 2rem;
+
+        line-height: 150%;
+      }
+      p {
+        font-size: 1rem;
+      }
+    }
+
+    .banner {
+      width: 25rem;
+
+      .card {
+        padding: 2rem;
+        gap: 2.5rem;
+
+        .info {
+          gap: 2.5rem;
+
+          h2 {
+            font-size: 1.75rem;
+            line-height: 1.75rem;
+          }
+
+          p {
+            font-size: 1rem;
+          }
+        }
+
+        .buttons {
+          :global(.btn) {
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+  }
+
+  @include media-breakpoint-down(xl) {
+    padding: 3rem 4rem;
+    & > .info {
+      width: 38rem;
+      gap: 2rem;
+
+      h1 {
+        font-size: 1.75rem;
+        line-height: 150%;
+      }
+    }
+
+    .banner {
+      .card {
+        padding: 1.75rem;
+        gap: 2rem;
+
+        .info {
+          gap: 2.5rem;
+
+          h2 {
+            font-size: 1.75rem;
+            line-height: 1.75rem;
+          }
+
+          p {
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+  }
+
+  @include media-breakpoint-down(lg) {
+    flex-direction: column;
+    align-items: center;
+    & > .info {
+      width: unset;
+    }
+    .banner {
+      width: 31rem;
+      padding-top: 4rem;
+      padding-bottom: 12rem;
+      .card {
+      }
+    }
+  }
+}
